@@ -1,0 +1,131 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1cb5e0, #000046);
+  color: white;
+  padding: 40px;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 35px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Form */
+.lead-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.lead-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.lead-form button {
+  background: linear-gradient(90deg, #ffd700, #f5c542);
+  border: none;
+  color: #001f3f;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lead-form button:hover {
+  transform: scale(1.05);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+thead {
+  background: rgba(0,0,0,0.6);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Rows */
+tbody tr {
+  background: rgba(255,255,255,0.08);
+  transition: 0.3s;
+}
+
+tbody tr:hover {
+  background: rgba(255,255,255,0.18);
+}
+
+/* Status Badges */
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.new { background: #00bcd4; }
+.contacted { background: #4caf50; }
+.closed { background: #e91e63; }
+
+/* Action Buttons */
+button.action-btn {
+  background: #1cb5e0;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.action-btn:hover {
+  background: #0f2027;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 12px;
+  background: #0a2f66;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.footer a {
+  color: #00c3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini CRM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>✨ Client Lead Management (Mini CRM)</h1>
+
+  <form id="leadForm" class="lead-form">
+    <input type="text" placeholder="Client Name" id="name" required>
+    <input type="email" placeholder="Client Email" id="email" required>
+    <button type="submit">➕ Add Lead</button>
+  </form>
+
+  <h2>📋 All Leads</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Status</th>
+        <th>Notes</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="leadTable"></tbody>
+  </table>
+
+</div>
+
+<!-- 🌐 LinkedIn Footer -->
+<footer class="footer">
+  <p>🔗 Connect with me on 
+    <a href="https://www.linkedin.com/in/ajay-kumar-vipparla-623785324/" target="_blank">
+      LinkedIn
+    </a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
